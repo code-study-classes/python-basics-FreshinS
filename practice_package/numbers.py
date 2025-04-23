@@ -1,13 +1,10 @@
-def calculate_distance(x, y):
-    return y - x
+calculate_distance = lambda x, y: y - x  # noqa: E731
 
 
-def calculate_segments(a, b):
-    return round(a // b)
+calculate_segments = lambda a, b: round(a // b)  # noqa: E731
 
 
-def calculate_digit_sum(number):
-    return sum(map(int, str(abs(number))))
+calculate_digit_sum = lambda number: sum(map(int, str(abs(number))))  # noqa: E731
 
 
 def round_to_multiple(number, multiple):
