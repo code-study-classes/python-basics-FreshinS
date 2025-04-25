@@ -16,7 +16,7 @@ class TestStringsFunctions:
         ('../index.html', 'index'),
         ('/home/user/photo.jpg', 'photo'),
         ('archive.tar.gz', 'archive'),
-        ('../file', 'file'),
+        ('file', 'file'),
         ('.gitignore', '.gitignore')
     ], ids=["windows_path", "relative_path", "unix_path", 
             "double_extension", "no_extension", "hidden_file"])

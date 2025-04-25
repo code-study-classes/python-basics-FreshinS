@@ -33,10 +33,7 @@ def filter_palindromes(words):
 def calculate_factorial(n):
     if n == 0:
         return 1
-    result = 1
-    for i in range(0, n):
-        print(i)
-        result *= i + 1
+    result = n * calculate_factorial(n - 1)
     return result
 
 
